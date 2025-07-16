@@ -1,0 +1,19 @@
+#for the local environment (development for testing)
+pymongo       #for the Mongo DB
+pymongo[srv]  #Mongo DB cloud server
+dnspython     #for the Mongo DB
+pandas
+numpy
+ensure
+
+
+# dev requirements -
+
+pytest==7.1.3  #test the different types of use cases. it only requires for the development environment.
+tox==3.25.1    #(testing environment) test the code in different different environment.
+black==22.8.0  #lenting tool
+flake8==5.0.4
+mypy==0.971
+
+-e .  #for the local package
+
